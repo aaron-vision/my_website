@@ -9,23 +9,23 @@ design:
 
 sections:
   - block: resume-biography-3
-  content:
-    username: admin
-    text: ""
-    button:
-      text: 下载简历 (CV)
-      url: uploads/resume.pdf
-    headings:
-      about: 关于我
-      education: 教育背景
-      interests: 研究兴趣
-  design:
-    background:
-      gradient_mesh:
-        enable: true
-    avatar:
-      size: medium
-      shape: circle
+    content:
+      username: admin
+      text: ""
+      button:
+        text: 下载简历 (CV)
+        url: uploads/resume.pdf
+      headings:
+        about: 关于我
+        education: 教育背景
+        interests: 研究兴趣
+    design:
+      background:
+        gradient_mesh:
+          enable: true
+      avatar:
+        size: medium
+        shape: circle
 
   - block: markdown
     content:
