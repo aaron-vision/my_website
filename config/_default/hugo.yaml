@@ -4,17 +4,22 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: "常帅的学术主页"
 # Website URL
 baseURL: "https://aaron-vision.github.io/my_website/"
 canonifyURLs: true
+
+# 【核心：这是你缺少的皮肤和逻辑模块】
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
+defaultContentLanguage: zh-Hans
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
@@ -57,9 +62,11 @@ taxonomies:
   tag: tags
   publication_type: publication_types
 markup:
-  _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true # 允许在 Markdown 中使用 HTML 标签（如调整图片大小）
   highlight:
-    lineNos: false
+    style: github-light # 代码高亮风格
 security:
   _merge: deep
 sitemap:
