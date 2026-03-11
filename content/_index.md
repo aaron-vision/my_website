@@ -23,9 +23,13 @@ sections:
       background:
         gradient_mesh:
           enable: true
+      # Name heading sizing to accommodate long or short names
+      name:
+        size: lg # Options: xs, sm, md, lg (default), xl
+
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+        shape: circle # Options: circle (default), square, rounded
 
   - block: markdown
     content:

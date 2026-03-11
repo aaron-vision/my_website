@@ -1,5 +1,5 @@
 ---
-title: "常帅 (Shuai Chang)"
+title: "常帅   Shuai Chang"
 role: "认知神经科学博士｜视觉科学家"
 bio: "致力于探索视觉意识的神经机制。"
 
