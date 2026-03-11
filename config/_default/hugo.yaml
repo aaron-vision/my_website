@@ -19,11 +19,19 @@ module:
 ## LANGUAGE
 ############################
 
+# 1. 设置默认语言指针
 defaultContentLanguage: zh-Hans
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+# 2. 核心补丁：显式定义 zh-Hans 语言块
+languages:
+  zh-Hans:
+    languageCode: zh-Hans
+    languageName: "简体中文"
+    weight: 1
+    contentDir: content  # 确保它指向你的内容文件夹
 ############################
 ## PAGE OPTIONS
 ############################
