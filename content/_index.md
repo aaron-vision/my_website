@@ -13,7 +13,7 @@ sections:
   - block: resume-biography-3
     content:
       # 核心修正：关联到你的 content/authors/admin/ 文件夹
-      username:
+      username: admin 
       text: ''
       button:
         text: 下载简历 (CV)
