@@ -1,3 +1,4 @@
+<!--
 # [https://aaron-vision.github.io/my_website/](https://aaron-vision.github.io/my_website/)
 
 # [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
@@ -148,6 +149,7 @@ npx hugoblox create site --template academic-cv
 ---
 
 MIT © 2016-Present [George Cushen](https://georgecushen.com)
+-->
 
 <!--START_SECTION:news-->
 <!--Updated at 2026-03-08T01:10:48.833Z-->
