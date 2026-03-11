@@ -10,11 +10,11 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: admin
-      text: "dd"
-      # button:
-      #   text: 下载简历 (CV)
-      #   url: uploads/resume.pdf
+      username: me
+      text: ""
+      button:
+        text: 下载简历 (CV)
+        url: uploads/resume.pdf
       headings:
         about: 关于我
         education: 教育背景
