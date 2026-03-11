@@ -3,7 +3,9 @@ slug: me
 is_owner: true
 
 name:
-  display: 常帅 (Shuai Chang)
+  display: |
+    常帅 
+    Shuai Chang
   given: Shuai
   family: Chang
   alternate: 常帅
@@ -11,7 +13,7 @@ name:
   pronouns: ''
 
 status:
-  icon: "👁️"
+  icon: "👁️🧠"
 
 role: 认知神经科学博士｜视觉科学家
 
