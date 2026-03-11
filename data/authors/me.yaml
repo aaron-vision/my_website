@@ -3,9 +3,7 @@ slug: me
 is_owner: true
 
 name:
-  display: |
-    常帅 
-    Shuai Chang
+  display: 常帅     Shuai Chang
   given: Shuai
   family: Chang
   alternate: 常帅
@@ -22,7 +20,7 @@ bio: |
   研究聚焦于视觉意识、双眼整合与抑制机制、视觉韧性评估及心盲症与视觉工作记忆。
 
 affiliations:
-  - name: 中山大学中山眼科中心（ZOC）
+  - name: 中山大学中山眼科中心 Zhongshan Ophthalmic Center, Sun Yat-sen University
     url: https://www.gzzoc.com/
 
 links:
@@ -42,10 +40,9 @@ interests:
 
 education:
   - degree: PhD in Cognitive Neuroscience
-    institution: 新南威尔士大学（UNSW）
-    end: 2019-12-31
-  - degree: 导师：Joel Pearson 教授
-    institution: 悉尼，澳大利亚
+    institution: Unviersity of New South Wales, Australia 新南威尔士大学
+    end: 2019
+    summary: Supervised by Professor Joel Pearson
 
 experience:
   - role: 临床基础研究人员
