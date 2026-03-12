@@ -5,11 +5,22 @@ type: landing
 sections:
   - block: resume-biography-3
     content:
-      username: admin
+      username: me
       text: ""
       button:
-        text: 研究与成果
-        url: ./research/
+        text: test
+        url: url
+      headings:
+        about: 关于我
+        education: 教育背景
+        interests: 研究兴趣
+    design:
+      background:
+        gradient_mesh:
+          enable: true
+      # Name heading sizing to accommodate long or short names
+      name:
+        size: lg # Options: xs, sm, md, lg (default), xl
 
   - block: markdown
     content:
