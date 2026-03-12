@@ -3,20 +3,20 @@ slug: me
 is_owner: true
 
 name:
-  display: 常帅  me   Shuai Chang
+  display: 常 帅  me
   given: Shuai me
   family: Chang me 
-  alternate: 常帅 me 
+  alternate: 常帅 me alternate 
   pronunciation: ''
   pronouns: ''
 
 status:
   icon: "👁️🧠"
 
-role: me 认知神经科学博士｜视觉科学家
+role: me 副研究员｜认知神经科学博士
 
 bio: |
-  常帅目前任职于中山大学中山眼科中心（ZOC）斜视与弱视科，从事临床基础研究工作。
+  常帅 me 目前任职于中山大学中山眼科中心（ZOC）斜视与弱视科，从事临床基础研究工作。
   研究聚焦于视觉意识、双眼整合与抑制机制、视觉韧性评估及心盲症与视觉工作记忆。
 
 affiliations:
@@ -24,7 +24,7 @@ affiliations:
     url: https://www.gzzoc.com/
 
 links:
-  - icon: envolop
+  - icon: envelope
     url: mailto:aaronshuaishuai@outlook.com
     label: E-mail Me
   - icon: brands/github
@@ -46,9 +46,9 @@ education:
 
 experience:
   - role: me 临床基础研究人员
-    org: 中山大学中山眼科中心（ZOC）
+    org: me 中山大学中山眼科中心（ZOC）
     summary: |
-      从事斜视与弱视相关的临床与基础研究，关注视觉损伤后的神经可塑性、双眼视觉及视觉意识机制。
+      me 从事斜视与弱视相关的临床与基础研究，关注视觉损伤后的神经可塑性、双眼视觉及视觉意识机制。
 
 skills:
   - name: Research

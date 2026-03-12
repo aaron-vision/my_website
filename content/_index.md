@@ -8,8 +8,9 @@ sections:
       username: me
       text: "resume-biography-3 text"
       button:
-        text: rb3 button text
-        url: url
+        text: | 
+          rb3 我是一名从事视觉科学与眼科临床研究的研究者，关注双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。
+        url: /about/
       headings:
         about: 关于我 rb3 headings about
         education: 教育背景 rb3 headings 
@@ -22,13 +23,13 @@ sections:
       name:
         size: lg # Options: xs, sm, md, lg (default), xl
 
-  - block: markdown
-    content:
-      title: 个人简介
-      text: |
-        rb3 我是一名从事视觉科学与眼科临床研究的研究者，关注双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。
+  # - block: markdown
+    # content:
+      # title: 个人简介
+      # text: |
+        
 
-        [更多...](/about/)
+        # [更多...](/about/)
 
   - block: markdown
     content:
