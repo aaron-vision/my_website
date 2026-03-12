@@ -9,10 +9,10 @@ sections:
       text: 视觉科学与眼科临床研究
       primary_action:
         text: 研究与成果
-        url: /research/
+        url: research/
       secondary_action:
         text: 关于我
-        url: /about/
+        url: about/
 
   - block: markdown
     content:
