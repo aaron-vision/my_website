@@ -1,5 +1,5 @@
 ---
-title: "authors me 常帅   Shuai Chang"
+title: "常帅  au me  Shuai Chang"
 role: "au me 认知神经科学博士｜视觉科学家"
 bio: "au me 致力于探索视觉意识的神经机制。"
 
@@ -8,7 +8,7 @@ organizations:
     url: "https://www.gzzoc.com/"
 
 interests:
-  - "au me 视觉意识与神经机制"
+  - "视觉意识au me 与神经机制"
   - "双眼整合与抑制机制"
   - "视觉韧性评估与康复"
   - "心盲症与视觉工作记忆"
