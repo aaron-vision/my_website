@@ -3,16 +3,13 @@ title: 首页
 type: landing
 
 sections:
-  - block: hero
+  - block: resume-biography-3
     content:
-      title: 常帅
-      text: 视觉科学与眼科临床研究
-      primary_action:
+      username: admin
+      text: ""
+      button:
         text: 研究与成果
         url: ./research/
-      secondary_action:
-        text: 关于我
-        url: ./about/
 
   - block: markdown
     content:
