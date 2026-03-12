@@ -1,68 +1,54 @@
 ---
-title: ""
-summary: ""
-date: 2026-03-11
+title: 首页
 type: landing
 
-design:
-  spacing: "6rem"
-
 sections:
-  - block: resume-biography-3
+  - block: hero
     content:
-      username: me
-      text: ""
-      button:
-        text: 下载简历 (CV)
-        url: uploads/resume.pdf
-      headings:
-        about: 关于我
-        education: 教育背景
-        interests: 研究兴趣
-    design:
-      background:
-        gradient_mesh:
-          enable: true
-      # Name heading sizing to accommodate long or short names
-      name:
-        size: lg # Options: xs, sm, md, lg (default), xl
-
-      avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+      title: 常帅
+      text: 视觉科学与眼科临床研究
+      primary_action:
+        text: 研究与成果
+        url: /research/
+      secondary_action:
+        text: 关于我
+        url: /about/
 
   - block: markdown
     content:
-      title: "研究使命 (My Research)"
-      subtitle: ""
+      title: 个人简介
       text: |
-        我的研究致力于构建**“视觉韧性 (Visual Resilience)”**评估体系。
+        我是一名从事视觉科学与眼科临床研究的研究者，关注双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。
 
-        通过结合心理物理学、多模态成像（fMRI/EEG）和眼动追踪技术，我试图解析大脑在面对视觉损伤（如斜视、复视）时，如何通过神经可塑性进行代偿。
-
-        目前主持国家自然科学基金项目：探索心盲症个体在视觉工作记忆中的灵活表征机制。
-    design:
-      columns: "1"
+  - block: markdown
+    content:
+      title: 研究与成果
+      text: |
+        围绕双眼视觉异常、眼动特征、视觉信息处理及相关机制开展研究。
+        
+        [查看详情](/research/)
 
   - block: collection
-    id: news
     content:
-      title: 最新动态
-      page_type: event
-      count: 5
-    design:
-      view: card
-      columns: 2
-
-  - block: collection
-    id: papers
-    content:
-      title: 代表性论文
+      title: 学术动态
       filters:
         folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+          - news
+      count: 3
+
+  - block: collection
+    content:
+      title: 科普与随笔
+      filters:
+        folders:
+          - outreach
+      count: 3
+
+  - block: markdown
+    content:
+      title: 联系方式
+      text: |
+        aaronchangshuai@outlook.com  
+        单位：中山大学中山眼科中心  
+        [查看完整联系方式](/contact/)
 ---

@@ -1,12 +1,11 @@
 ---
-title: Publications
-cms_exclude: true
-
-# View.
-view: citation
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+title: 论文
 ---
+
+## 2026
+1. 论文题目 A  
+2. 论文题目 B  
+
+## 2025
+1. 论文题目 C  
+2. 论文题目 D
