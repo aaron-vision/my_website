@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "常帅 (Shuai Chang)"
+    name: "params 常帅 (Shuai Chang)"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "中山眼科中心 (ZOC)"
+    organization: "params 中山眼科中心 (ZOC)"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "视觉科学家"
+    tagline: "params 视觉科学家"
     # Site meta description for search engines and social sharing
-    description: "常帅博士的个人学术主页，关注视觉意识、心盲症与视觉韧性研究。"
+    description: "params 常帅博士的个人学术主页，关注视觉意识、心盲症与视觉韧性研究。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)

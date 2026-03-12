@@ -6,14 +6,14 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      text: ""
+      text: "resume-biography-3 text"
       button:
-        text: test
+        text: rb3 button text
         url: url
       headings:
-        about: 关于我
-        education: 教育背景
-        interests: 研究兴趣
+        about: 关于我 rb3 headings about
+        education: 教育背景 rb3 headings 
+        interests: 研究兴趣 rb3 headings 
     design:
       background:
         gradient_mesh:
@@ -26,7 +26,9 @@ sections:
     content:
       title: 个人简介
       text: |
-        我是一名从事视觉科学与眼科临床研究的研究者，关注双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。
+        rb3 我是一名从事视觉科学与眼科临床研究的研究者，关注双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。
+
+        [更多...](/about/)
 
   - block: markdown
     content:
@@ -54,7 +56,7 @@ sections:
 
   - block: markdown
     content:
-      title: 联系方式
+      title: rb3 联系方式
       text: |
         aaronchangshuai@outlook.com  
         单位：中山大学中山眼科中心  

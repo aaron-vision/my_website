@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: "常帅的学术主页"
+title: "hugo yaml 常帅的学术主页"
 # Website URL
 baseURL: "https://aaron-vision.github.io/my_website/"
 canonifyURLs: true
