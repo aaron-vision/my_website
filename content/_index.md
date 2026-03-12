@@ -20,7 +20,7 @@ sections:
           enable: true
       # Name heading sizing to accommodate long or short names
       name:
-        size: xl # Options: xs, sm, md, lg (default), xl
+        size: md # Options: xs, sm, md, lg (default), xl
 
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
