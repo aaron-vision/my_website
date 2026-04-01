@@ -6,7 +6,7 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      text: "rb3 我是一名从事视觉科学与眼科临床研究的研究者，关注双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。"
+      text: "rb3 致力于视觉科学与眼科学的基础与临床研究，关注视觉表象、心盲、双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。"
       button:
         text: 更多信息
         url: /about/

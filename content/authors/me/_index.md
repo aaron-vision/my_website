@@ -8,10 +8,10 @@ organizations:
     url: "https://www.gzzoc.com/"
 
 interests:
-  - "视觉意识au me 与神经机制"
+  - "au me 视觉表象与视觉意识"
   - "双眼整合与抑制机制"
-  - "视觉韧性评估与康复"
-  - "心盲症与视觉工作记忆"
+  - "斜视的临床评估与康复"
+  - "视觉信息加工与工作记忆"
 
 education:
   courses:
