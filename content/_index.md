@@ -6,14 +6,14 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      text: "[SRC:HOME_BIO_TEXT] 致力于视觉科学与眼科学的基础与临床研究，关注视觉表象、心盲、双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。"
+      text: "致力于视觉科学与眼科学的基础与临床研究，关注视觉表象、心盲、双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。 [H-BIO]"
       button:
         text: 更多信息
         url: /about/
       headings:
-        about: 关于我 [SRC:HOME_HEADING_ABOUT]
-        education: 教育背景 [SRC:HOME_HEADING_EDUCATION]
-        interests: 研究兴趣 [SRC:HOME_HEADING_INTERESTS]
+        about: 关于我 [H-A]
+        education: 教育背景 [H-E]
+        interests: 研究兴趣 [H-I]
     design:
       background:
         gradient_mesh:
@@ -60,7 +60,7 @@ sections:
 
   - block: markdown
     content:
-      title: 联系方式 [SRC:HOME_CONTACT_TITLE]
+      title: 联系方式 [H-C]
       text: |
         aaronchangshuai@outlook.com
         单位：中山大学中山眼科中心
