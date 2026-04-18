@@ -6,14 +6,14 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      text: "rb3 致力于视觉科学与眼科学的基础与临床研究，关注视觉表象、心盲、双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。"
+      text: "[SRC:HOME_BIO_TEXT] 致力于视觉科学与眼科学的基础与临床研究，关注视觉表象、心盲、双眼视觉、间歇性外斜视、眼动与视觉信息处理、视觉神经科学与意识等方向。"
       button:
         text: 更多信息
         url: /about/
       headings:
-        about: 关于我 rb3 headings about
-        education: 教育背景 rb3 headings 
-        interests: 研究兴趣 rb3 headings 
+        about: 关于我 [SRC:HOME_HEADING_ABOUT]
+        education: 教育背景 [SRC:HOME_HEADING_EDUCATION]
+        interests: 研究兴趣 [SRC:HOME_HEADING_INTERESTS]
     design:
       background:
         gradient_mesh:
@@ -30,7 +30,7 @@ sections:
     # content:
       # title: 个人简介
       # text: |
-        
+
 
         # [更多...](/about/)
 
@@ -39,7 +39,7 @@ sections:
       title: 研究与成果
       text: |
         围绕双眼视觉异常、眼动特征、视觉信息处理及相关机制开展研究。
-        
+
         [查看详情](/research/)
 
   - block: collection
@@ -60,9 +60,9 @@ sections:
 
   - block: markdown
     content:
-      title: rb3 联系方式
+      title: 联系方式 [SRC:HOME_CONTACT_TITLE]
       text: |
-        aaronchangshuai@outlook.com  
-        单位：中山大学中山眼科中心  
+        aaronchangshuai@outlook.com
+        单位：中山大学中山眼科中心
         [查看完整联系方式](/contact/)
 ---
