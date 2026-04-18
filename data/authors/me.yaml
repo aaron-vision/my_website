@@ -3,7 +3,7 @@ slug: me
 is_owner: true
 
 name:
-  display: "常 帅<br>Shuai Chang"
+  display: "常 帅 [[EN]] Shuai Chang"
   given: Shuai
   family: Chang
   alternate: 常帅
@@ -20,7 +20,7 @@ bio: |
   研究聚焦于视觉意识、双眼整合与抑制机制、视觉韧性评估及心盲症与视觉工作记忆。
 
 affiliations:
-  - name: "中山大学中山眼科中心<br>Zhongshan Ophthalmic Center, Sun Yat-sen University [A-AFF]"
+  - name: "中山大学中山眼科中心 [[EN]] Zhongshan Ophthalmic Center, Sun Yat-sen University [A-AFF]"
     url: https://www.gzzoc.com/
 
 links:

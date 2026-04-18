@@ -1,1 +1,19 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var token = '[[EN]]';
+    var candidates = document.querySelectorAll('h1, h2, h3, p, div, span, li');
+
+    candidates.forEach(function (el) {
+      if (el.children.length > 0) return;
+
+      var text = (el.textContent || '').trim();
+      if (!text.includes(token)) return;
+
+      var parts = text.split(token).map(function (s) { return s.trim(); }).filter(Boolean);
+      if (parts.length !== 2) return;
+
+      el.innerHTML = parts[0] + '<br>' + parts[1];
+    });
+  });
+</script>
