@@ -2,18 +2,34 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var token = '[[EN]]';
-    var candidates = document.querySelectorAll('h1, h2, h3, p, div, span, li');
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        if (!node || !node.nodeValue || !node.nodeValue.includes(token)) return NodeFilter.FILTER_REJECT;
+        var p = node.parentElement;
+        if (!p) return NodeFilter.FILTER_REJECT;
+        var tag = p.tagName;
+        if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'NOSCRIPT') return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
 
-    candidates.forEach(function (el) {
-      if (el.children.length > 0) return;
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
 
-      var text = (el.textContent || '').trim();
-      if (!text.includes(token)) return;
-
-      var parts = text.split(token).map(function (s) { return s.trim(); }).filter(Boolean);
+    nodes.forEach(function (node) {
+      var raw = node.nodeValue;
+      var parts = raw.split(token);
       if (parts.length !== 2) return;
 
-      el.innerHTML = parts[0] + '<br>' + parts[1];
+      var left = parts[0].trim();
+      var right = parts[1].trim();
+      if (!left || !right) return;
+
+      var frag = document.createDocumentFragment();
+      frag.appendChild(document.createTextNode(left));
+      frag.appendChild(document.createElement('br'));
+      frag.appendChild(document.createTextNode(right));
+      node.parentNode.replaceChild(frag, node);
     });
   });
 </script>
